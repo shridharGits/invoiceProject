@@ -1,0 +1,20 @@
+create invoice
+invoice:{
+    ✅ title,
+    ✅ hours of work,
+    ✅ rate,
+    ✅ amount,
+    ✅ status (paid, non-paid),
+    ✅ duedate,
+    ✅ notes[]  
+    ✅ expenses {key:value},
+}
+
+✅ invoice model
+
+Routes:
+✅ /create
+✅ /update/id
+✅ /invoices
+✅ /alert
+/send/id
