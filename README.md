@@ -53,7 +53,7 @@
 ```http
   GET /api/alert
 ```
-#### Create Invoice
+#### Send Invoice via Email
 
 ```http
   POST /api/send/:id
@@ -62,6 +62,11 @@
 ```
 {
     "email": "email123@gmail.com"
-}
+} 
 ```
+
+
+## Authors
+
+- [@shridharGits](https://www.github.com/shridharGits)
 
